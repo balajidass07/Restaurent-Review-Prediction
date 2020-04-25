@@ -1,0 +1,79 @@
+Creating our ML model to train it
+1.GaussenNB
+2.Decision tree
+3.Random Forest
+4.KNN
+5.Kernal SVM
+
+Evaluation Model:
+Evaluate the performance of each of these models. 
+Accuracy is not enough, so you should also look at other performance metrics like 
+Precision (measuring exactness), 
+Recall (measuring completeness), 
+the F1 Score (compromise between Precision and Recall).
+
+Finding below these metrics formulas using confusion matrix
+TP = # True Positives, 
+TN = # True Negatives, 
+FP = # False Positives, 
+FN = # False Negatives.
+
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+Precision = TP / (TP + FP)
+Recall = TP / (TP + FN)
+F1 Score = 2 * Precision * Recall / (Precision + Recall)
+
+1.GaussenNB:
+TP = # True Positives = 55
+TN = # True Negatives = 12 
+FP = # False Positives = 91
+FN = # False Negatives = 42
+
+Accuracy = 0.335
+Precision = 0.376
+Recall = 0.567
+F1 Score = 0.452
+
+2.Decision tree
+TP = # True Positives = 74
+TN = # True Negatives = 35
+FP = # False Positives = 68
+FN = # False Negatives = 23
+
+Accuracy = 0.545
+Precision = 0.521
+Recall = 0.762
+F1 Score = 0.635
+
+3.Random Forest
+TP = # True Positives = 87
+TN = # True Negatives = 10
+FP = # False Positives = 57
+FN = # False Negatives = 46
+
+Accuracy = 0.485
+Precision = 0.604
+Recall = 0.604
+F1 Score = 0.604
+
+4.KNN
+TP = # True Positives = 74
+TN = # True Negatives = 23 
+FP = # False Positives = 48
+FN = # False Negatives = 55
+
+Accuracy = 0.485
+Precision = 0.606
+Recall = 0.573
+F1 Score = 0.589
+
+5.Kernal SVM
+TP = # True Positives = 90
+TN = # True Negatives = 7 
+FP = # False Positives = 57
+FN = # False Negatives = 46
+
+Accuracy = 0.485
+Precision = 0.612
+Recall = 0.661
+F1 Score =0.6355
