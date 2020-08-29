@@ -1,7 +1,7 @@
 # Restaurent-Review-Prediction
 
 In this project, I have build a ML model using NLTK package for predicting restaurant review is positive. or not. Here i have used a restaurant review dataset which contains 1000 review. 
-
+Note:To get more accurate results we need a huge DATASET
 There are three basic steps for this project:
 1.cleaning the text 
 2.creating bag of words 
