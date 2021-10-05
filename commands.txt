@@ -1,0 +1,5 @@
+docker start ID
+docker exec -it 1131877d0fad bash
+docker ps
+docker ps --all
+docker run -it mongo bash
